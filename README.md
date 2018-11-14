@@ -1,5 +1,6 @@
-# workmanjack.github.io
 # www.jackcworkman.com
+
+Also available from [workmanjack.github.io](workmanjack.github.io)
 
 ## Jekyll
 
@@ -50,10 +51,10 @@ Here is the script they provide in their guide adapted to push to a subdirectory
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 # Build the project.
-hugo --destination public\blog # if using a theme, replace with `hugo -t <YOURTHEME>`
+hugo --destination public/blog # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
-cd public\blog
+cd public
 # Add changes to git.
 git add .
 
@@ -70,6 +71,8 @@ git push origin master
 # Come Back up to the Project Root
 cd ..
 ```
+
+Note: if your personal website (now submodule) has changes not yet pulled, you will need to pull them manually. The above bash script might fail silently otherwise (it did for me executing in Windows). To pull them manually, `cd public && git pull`.
 
 ### Some Hugo themes that have caught my eye
 
