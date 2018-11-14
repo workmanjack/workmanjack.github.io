@@ -42,6 +42,7 @@ To push hugo to a subdir, you need to do the following:
 
 1. Create a subdir in your personal website GitHub Pages repo. I called mine `blog`.
 2. When building your hugo site, don't just call hugo. Call `hugo --destination public\blog`. This puts all rendered files into your subdirectory.
+3. And the final step is to modify your config's base url. Open up your site's config.toml, and change `baseURL` to `"http://www.jackcworkman.com/blog"` (but replace with your actual site).
 
 Here is the script they provide in their guide adapted to push to a subdirectory (note that this example assumes you want to render files to public\blog):
 
