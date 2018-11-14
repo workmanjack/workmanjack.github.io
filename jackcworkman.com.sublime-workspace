@@ -1,0 +1,794 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"M",
+				"MOOD_UNKNOWN_KEY"
+			],
+			[
+				"count_",
+				"count_lyrics_with_tags〔variable〕"
+			],
+			[
+				"actu",
+				"actual_df"
+			],
+			[
+				"artist",
+				"artist_first_letter〔argument〕"
+			],
+			[
+				"mismat",
+				"mismatched_title"
+			],
+			[
+				"default_to_",
+				"default_to_script_dir"
+			],
+			[
+				"work",
+				"workerlog_response"
+			],
+			[
+				"frame_num",
+				"frame_num_str"
+			],
+			[
+				"wopr_list",
+				"wopr_list_info"
+			],
+			[
+				"build_",
+				"build_name"
+			],
+			[
+				"artf",
+				"artifactory_info"
+			],
+			[
+				"legac",
+				"legacy_artifactory"
+			],
+			[
+				"environ",
+				"environment"
+			],
+			[
+				"actual",
+				"actual_json〔variable〕"
+			],
+			[
+				"expec",
+				"expected_json〔variable〕"
+			],
+			[
+				"GOldF",
+				"GoldFileName"
+			],
+			[
+				"png_path",
+				"png_path_no_ext"
+			],
+			[
+				"artifac",
+				"artifactory_info"
+			],
+			[
+				"Artifac",
+				"ArtifactoryInfo"
+			],
+			[
+				"enviro",
+				"environment"
+			],
+			[
+				"Result",
+				"ResultGtaJson"
+			],
+			[
+				"config",
+				"config_string"
+			],
+			[
+				"Gen12HP",
+				"Gen12HP_Aubload_Zip"
+			],
+			[
+				"test_obj",
+				"test_objects_dict"
+			],
+			[
+				"TestYaml",
+				"TestYamlCommandLine〔class〕"
+			],
+			[
+				"TestYal",
+				"TestYamlTestObject〔class〕"
+			],
+			[
+				"class",
+				"classmethod"
+			],
+			[
+				"next",
+				"next_auto_test_object_name"
+			],
+			[
+				"test_",
+				"test_yaml_path"
+			],
+			[
+				"Apach",
+				"ApacheBench"
+			],
+			[
+				"purchase_a",
+				"purchase_a_sword"
+			],
+			[
+				"tablea",
+				"tableau-viz"
+			],
+			[
+				"thresho",
+				"threshold_high"
+			],
+			[
+				"threso",
+				"threshold_high"
+			],
+			[
+				"stat_thre",
+				"stat_threshold_high"
+			],
+			[
+				"stat",
+				"stat_threshold_high"
+			],
+			[
+				"stat_thres",
+				"stat_threshold_low_or_symm"
+			],
+			[
+				"threshold_low",
+				"threshold_low_or_symm"
+			],
+			[
+				"COL_",
+				"COL_THRESHOLD_HIGH〔variable〕"
+			],
+			[
+				"script",
+				"script_output_file〔variable〕"
+			],
+			[
+				"gta_",
+				"gta_upload.bat"
+			],
+			[
+				"grits_optio",
+				"grits_options_txt"
+			],
+			[
+				"lvlfile",
+				"lvlfiles_file〔variable〕"
+			],
+			[
+				"infoxmls_ar",
+				"infoxmls_args_cmd〔variable〕"
+			],
+			[
+				"gsim",
+				"gsimtests_dir"
+			],
+			[
+				"lvl",
+				"lvlfiles_status〔variable〕"
+			],
+			[
+				"lvlfiles_",
+				"lvlfiles_log"
+			],
+			[
+				"GSIMTEST",
+				"GSIMTESTS_DIR"
+			],
+			[
+				"gener",
+				"generateLevelFilesAndInfoXmls"
+			],
+			[
+				"status",
+				"statusReport"
+			],
+			[
+				"xml_gen",
+				"xml_gen_status〔variable〕"
+			],
+			[
+				"LIST",
+				"LIST_ID_VAMSEES16〔variable〕"
+			],
+			[
+				"microGoldLe",
+				"microGoldLevels"
+			],
+			[
+				"filterBy",
+				"filterByEqualTo"
+			],
+			[
+				"psim_me",
+				"psim_median"
+			],
+			[
+				"acti",
+				"activities"
+			],
+			[
+				"activi",
+				"activity_date"
+			],
+			[
+				"goldenize",
+				"goldenized_grits"
+			],
+			[
+				"gen_archdb",
+				"gen_archdb_unified_levels〔module〕"
+			],
+			[
+				"tests_report",
+				"tests_report_output_path"
+			],
+			[
+				"scenarios",
+				"scenarios_report_output_path"
+			],
+			[
+				"scenarios_repor",
+				"scenarios_report_output_path〔variable〕"
+			],
+			[
+				"DEVICE",
+				"DEVICES_WE_CARE_ABOUT〔variable〕"
+			],
+			[
+				"AR",
+				"ARCHTARGETDB_NOTGOLD_TAG_PREFIX〔variable〕"
+			],
+			[
+				"ARCH",
+				"ARCHTARGETDB_GOLD_TAG_PREFIX〔variable〕"
+			],
+			[
+				"archtarget",
+				"archtarget_device"
+			],
+			[
+				"device_name",
+				"device_name_to_device_ids"
+			],
+			[
+				"Gen12HP-",
+				"Gen12HP-3x4x16"
+			],
+			[
+				"unifie",
+				"unified_path〔variable〕"
+			],
+			[
+				"p2_pass",
+				"p2_passrate〔variable〕"
+			],
+			[
+				"dfwMaster",
+				"dfwMasterTests"
+			],
+			[
+				"gismtests",
+				"gsimtests_path"
+			],
+			[
+				"rel",
+				"rel_dir_to_explore"
+			],
+			[
+				"only",
+				"only_write_dirty"
+			],
+			[
+				"test_manag",
+				"test_management.py"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"Cobal",
+				"Cobalt_committed"
+			],
+			[
+				"DEVICES",
+				"DEVICES_WE_CARE_ABOUT〔module〕"
+			],
+			[
+				"ArchTargetsRepor",
+				"ArchTargetsReportTable"
+			],
+			[
+				"priori",
+				"priority_name_map"
+			],
+			[
+				"arch",
+				"archtargets_lib"
+			],
+			[
+				"catgory",
+				"category_gsim"
+			],
+			[
+				"dfwCopy",
+				"dfwCopyMaster"
+			],
+			[
+				"dfw",
+				"dfwScenariosResultsData"
+			],
+			[
+				"test_namecons",
+				"test_name_const"
+			],
+			[
+				"archtarget_dev",
+				"archtarget_devices〔argument〕"
+			],
+			[
+				"Golden",
+				"GoldenizationInfo"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 287.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"pep8",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instl",
+				"Package Control: Install Local Dependency"
+			],
+			[
+				"py",
+				"PyYapf: Format Document"
+			],
+			[
+				"pya",
+				"PyYapf: Format Document"
+			],
+			[
+				"pyyap",
+				"PyYapf: Format Document"
+			],
+			[
+				"pyya",
+				"PyYapf: Format Document"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"sort",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"pyap",
+				"PyYapf: Format Document"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"print",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"prett",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"pret",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"format",
+				"PyYapf: Format Document"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"form",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"for",
+				"PyYapf: Format Document"
+			],
+			[
+				"pyapf",
+				"PyYapf: Format Document"
+			],
+			[
+				"settings",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"yapf",
+				"PyYapf: Format Document"
+			],
+			[
+				"isnt",
+				"Package Control: Install Package"
+			],
+			[
+				"sublime",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"lint",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 519.0
+	},
+	"console":
+	{
+		"height": 198.0,
+		"history":
+		[
+			"test",
+			"import yapf",
+			"import pyyapf",
+			"pyyapf",
+			"print('hello world')",
+			"print(x)",
+			"hello",
+			"pyyapf",
+			"fdafe",
+			"fda",
+			"fixing_gsim_aub_import_flow.py",
+			"quit()",
+			"print('hello world')",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/jcworkma/Documents/personal/website/website"
+	],
+	"file_history":
+	[
+		"/C/Users/jcworkma/Syncplicity Folders/intel/gta/gta_tp_audit.py",
+		"/C/Users/jcworkma/Documents/personal/gradschool/berkeley/W266/w266-group-project_lyric-mood-classification/data/labeled_lyrics.csv",
+		"/C/Users/jcworkma/Documents/personal/gradschool/berkeley/W266/w266-group-project_lyric-mood-classification/data/etl_lyrics.csv",
+		"/C/Users/jcworkma/Documents/personal/gradschool/berkeley/W266/w266-group-project_lyric-mood-classification/data/no_lyrics.csv",
+		"/C/Users/jcworkma/Documents/personal/gradschool/berkeley/W266/w266-group-project_lyric-mood-classification/data/etl_lyrics2.csv",
+		"/C/Users/jcworkma/Documents/personal/gradschool/berkeley/W266/w266-group-project_lyric-mood-classification/lyric_mood_classifier.py",
+		"/C/Users/jcworkma/Documents/personal/gradschool/berkeley/W266/w266-group-project_lyric-mood-classification/data/lyrics/json/10000_Maniacs___Across_The_Fields.json",
+		"/C/Users/jcworkma/Documents/personal/gradschool/berkeley/W266/w266-group-project_lyric-mood-classification/data/etl.csv",
+		"/C/Users/jcworkma/Documents/personal/gradschool/berkeley/W266/w266-group-project_lyric-mood-classification/requirements.txt",
+		"/C/Users/jcworkma/Syncplicity Folders/intel/mtc_tools/playground/fixing_gsims_aub_import_flow.py",
+		"/C/Users/jcworkma/Downloads/model.json",
+		"/C/Users/jcworkma/Syncplicity Folders/intel/gta/triages/18ww45_compute_regr/taskml_emu_ocl_simulation_without-driver-setup.txt",
+		"/C/Users/jcworkma/Syncplicity Folders/intel/gta/triages/18ww45_compute_regr/taskml_emu_ocl_simulation_with-driver-setup.txt",
+		"/C/Users/jcworkma/Syncplicity Folders/intel/gta/triages/18ww45_compute_regr/taskml_emu_ocl_simulation_with-driver-setup2.txt",
+		"/C/Users/jcworkma/Documents/personal/gradschool/berkeley/W266/w266-group-project_lyric-mood-classification/logs/scrape_lyrics__2018-11-01_23-50.log",
+		"/C/Users/jcworkma/Documents/personal/gradschool/berkeley/W266/w266-group-project_lyric-mood-classification/data/lyrics/_And_Oceans___New_Model_World.json",
+		"/C/Users/jcworkma/Documents/personal/gradschool/berkeley/W266/w266-group-project_lyric-mood-classification/logs/scrape_lyrics__2018-11-01_22-47.log",
+		"/C/Users/jcworkma/Documents/personal/gradschool/berkeley/W266/w266-group-project_lyric-mood-classification/logs/.gitkeep",
+		"/C/Users/jcworkma/Syncplicity Folders/intel/gta/triages/18ww45_noise/taskml_noise_experiment_cache_enabled.txt",
+		"/C/Users/jcworkma/Syncplicity Folders/intel/gta/triages/18ww45_noise/taskml_noise_experiment_1test.txt",
+		"/C/Users/jcworkma/Syncplicity Folders/intel/gta/triages/18ww45_noise/taskml_noise_experiment.txt",
+		"/C/Users/jcworkma/Syncplicity Folders/intel/gta/triages/18ww45_noise/taskml_noise_experiment_just-ps-no-tests.txt",
+		"/C/Users/jcworkma/Syncplicity Folders/intel/gta/gtax_csv.py",
+		"/C/Users/jcworkma/Documents/personal/gradschool/berkeley/W266/w266-group-project_lyric-mood-classification/data/musixmatch_matches/mxm_779k_matches.txt",
+		"/C/Users/jcworkma/Documents/personal/gradschool/berkeley/W266/w266-group-project_lyric-mood-classification/data/lyrics/_And_Oceans___Camatose_The_World_Amnesia_Planet_Dead.json",
+		"/C/Users/jcworkma/Documents/personal/gradschool/berkeley/W266/w266-group-project_lyric-mood-classification/api.txt",
+		"/C/Users/jcworkma/Documents/personal/gradschool/berkeley/W266/w266-group-project_lyric-mood-classification/mxm_mappings.csv",
+		"/C/Users/jcworkma/AppData/Roaming/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/C/Users/jcworkma/Documents/personal/gradschool/berkeley/W266/w266-group-project_lyric-mood-classification/scrape_lyrics.py",
+		"/C/Users/jcworkma/AppData/Roaming/Sublime",
+		"/C/Users/jcworkma/Text",
+		"/C/Users/jcworkma/3/Installed",
+		"/C/Users/jcworkma/Packages/PyYapf",
+		"/C/Users/jcworkma/Python",
+		"/C/Users/jcworkma/Formatter.sublime-package/PyYapf.py",
+		"/C/Users/jcworkma/AppData/Roaming/Sublime Text 3/Packages/User/.gitignore",
+		"/C/Users/jcworkma/Documents/personal/gradschool/berkeley/W266/code-of-source-paper-for-project/scientific-papers/2015-SMC/pom.xml",
+		"/C/Users/jcworkma/Documents/personal/gradschool/berkeley/W266/code-of-source-paper-for-project/README.md",
+		"/C/Users/jcworkma/Downloads/ABN-v1.4.940-all/ABN-v1.4.940-all/src/cmdline/scripts.py",
+		"/C/Users/jcworkma/Downloads/manhattan-f00567-00569_18ww41c_FULL_job.txt",
+		"/C/Users/jcworkma/Downloads/ABN-v1.4.940-all/ABN-v1.4.940-all/src/core/communicationClient.py",
+		"/C/Users/jcworkma/Downloads/ABN-v1.4.940-all/ABN-v1.4.940-all/src/abn_cmd.py",
+		"/C/Users/jcworkma/Documents/personal/gradschool/berkeley/W266/code-of-source-paper-for-project/scientific-papers/README.md",
+		"/C/Users/jcworkma/Downloads/ABN-v1.4.940-all/ABN-v1.4.940-all/src/AutoBench.ini",
+		"/C/Users/jcworkma/Downloads/jacks-interview-with-anthony-hauer.txt",
+		"/C/Users/jcworkma/Documents/C",
+		"/C/Users/jcworkma/Syncplicity Folders/intel/mtc_tools/ArchTargetFormula/ArchTargetFormula/Models/TestAPI.cs",
+		"/C/Users/jcworkma/Syncplicity Folders/intel/data_sources_ci_time_idea.txt",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/lib/common.py",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/run.py",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/data/levels/checkin/checkin_core.txt",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/setup.sh",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/data/levels/nightly_12hp.txt",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/data/levels/checkin/gen12lp_failing.txt",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/tests/test_run.py",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/setup.ini",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/tests/test_setup.ini",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/tests/test_lib_common.py",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/test_python_scripts.sh",
+		"/C/Users/jcworkma/requirements.txt",
+		"/C/Program Files/Sublime Text 3/sublime.py",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/create_tracelist.py",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/lib/run_test.py",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/lib/trace_file_utility.py",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/archtargets_lib/archtargetdb.py",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/archtargets_lib/archdb_aubs.py",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/data/gsimtests_revision.txt",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/gen_archdb_tests.py",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/lib/test_desc.py",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/create_tracelist/ww35_3D_2.txt",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/data/levels/checkin/gen12hp_failing.txt",
+		"/S/jcworkma/unused_changes/import_aubs_from_gta.py",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/data/levels/ArchTargetDB/unified/Waived_archDB_TGL_LP-1x6x16/Geom/geometry.txt",
+		"/S/jcworkma/tests_gsim/GSimTests/status.txt",
+		"/S/jcworkma/tests_gsim/GSimTests/unit_tests/status.txt",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/result.json",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/dotdotslashfulsim_grep.txt",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/test_management.py",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/create_tracelist/ww35_3D_2/tracelist.xml",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/run_level/run_level.py",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/create_tracelist/ww35_3D.txt",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/data/levels/apps/jacks_tracelist.txt",
+		"//samba.sc.intel.com/nfs/sc/disks/sc_vpg_00756/aub_import/create_tracelist/ww35_3D.txt",
+		"//samba.sc.intel.com/nfs/sc/disks/sc_vpg_00756/aub_import/create_tracelist/ww35_3D_2.txt",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/create_tracelist/ww35.3_cm_4/compute_cm.xml",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/data/levels/apps/compute_cm.txt",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/data/levels/weekly.txt",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/data/levels/repro_mikes_compute_aub_issue.txt",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/mikes_compute_wl_list_cm.txt",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/mikes_ww35_3D.txt",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/mikes_compute_wl_list.txt",
+		"/S/jcworkma/tests_gsim/GSimTests/dx11/gta5/ab-g3-nvidia__f01724_f01724_ci-main-72050-gta/info.xml",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/create_tracelist/jacks_ww35_3D/jacks_tracelist.xml",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/jacks_ww35_3D.txt",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/jacks_playground_tracelist.xml",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/data/levels/apps/tracelist.txt",
+		"//samba.sc.intel.com/nfs/sc/disks/sc_vpg_00756/aub_import/create_tracelist/ww35_compute_cm.txt",
+		"/C/Users/jcworkma/vpg_graphics_architecture_tools-gsimsrc/scripts/setup.ini",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/archtargets_lib/archdb_levels.py",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/data/levels/ArchTargetDB/unified/P1_archDB_TGL_LP-1x6x16/Sampler/sampler-fits-in-l1.txt",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/data/levels/ArchTargetDB/unified/Waived_archDB_ATS-2x4x16/GPPIPEHDC/l3-bw.txt",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/data/levels/checkin/checkin_archdb.txt",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/data/levels/ArchTargetDB/unified/P1_archDB_TGL_LP-1x6x16/unknown/urb.txt",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/gen_archdb_unified_levels.py",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/data/levels/ArchTargetDB/archDB_checkin_failing.txt",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/run_level.py",
+		"/C/Users/jcworkma/vpg_graphics_architecture_tools-gsimsrc/scripts/setup.bat",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/create_tracelist/bs/tracelist.xml",
+		"//samba.sc.intel.com/nfs/sc/disks/sc_vpg_00756/gsimsrc/_output/fsim_cs-default-fp64_win-skl_rkrn00001-00001_tgllpneo-aub-ci-neo-010919-manual-20180615-forceatsigc_0002/info.txt",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/setup.bat",
+		"/C/Users/jcworkma/vpg_graphics_architecture_tools-gsimsrc/scripts/setup.sh",
+		"/C/Users/jcworkma/Syncplicity Folders/intel/vpg_graphics_architecture_tools-gsimsrc/scripts/setup.sh",
+		"/C/Users/jcworkma/Syncplicity Folders/intel/vpg_graphics_architecture_tools-gsimsrc/scripts/setup.ini",
+		"/C/Users/jcworkma/Syncplicity Folders/intel/vpg_graphics_architecture_tools-gsimsrc/scripts/setup.bat",
+		"/S/jcworkma/gen_stats_correlation/gen_stats_correlation/gsim_run_output_parser/level_output/data/statistics_json.py",
+		"/C/Users/jcworkma/Syncplicity Folders/intel/mtc_tools/playground/get_gsim_ci_windows_build_info.py",
+		"/S/jcworkma/tests_gsim/gsimsrc/Fulsim/simics/README.txt",
+		"/S/jcworkma/tests_gsim/gsimsrc/_output/fsim_tri001_gsf_0008/runlog.txt",
+		"/S/jcworkma/tests_gsim/gsimsrc/_output/psim_tri001_gsf_0005/result.gta.json",
+		"/S/jcworkma/tests_gsim/gsimsrc/_output/psim_tri001_gsf_0009/result.gta.json",
+		"/S/jcworkma/tests_gsim/gsimsrc/_output/psim_tri001_gsf_0003/result.gta.json",
+		"/S/jcworkma/tests_gsim/gsimsrc/Timegraph/TG_tg2stats.txt",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/post/formula.py",
+		"/S/jcworkma/tests_gsim/gsimsrc/_output/fsim_tri001_gsf_0007/runlog.txt",
+		"/C/Users/jcworkma/Downloads/Intel Corporation - Intel Gsim Folsom CA - temp file August 2018 until renewal is made.IB_lic",
+		"/S/jcworkma/tests_gsim/gsimsrc/scripts/lib/result_csv.py",
+		"//samba.sc.intel.com/nfs/sc/disks/sc_vpg_00756/aub_import/create_tracelist/battlefield1_firestrike_3/tracelist.xml",
+		"/C/Users/jcworkma/Documents/personal/gradschool/berkeley/W207/playground_for_pyapf.py"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 109.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 56.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/Python_RUN.sublime-build",
+	"project": "jackcworkman.com.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 260.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
