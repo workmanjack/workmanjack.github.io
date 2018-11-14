@@ -1,5 +1,6 @@
-# workmanjack.github.io
 # www.jackcworkman.com
+
+Also available from [workmanjack.github.io](workmanjack.github.io)
 
 ## Jekyll
 
