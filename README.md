@@ -77,8 +77,13 @@ Note: if your personal website (now submodule) has changes not yet pulled, you w
 
 ### Some Hugo themes that have caught my eye
 
+* https://themes.gohugo.io/theme/gohugo-theme-ananke/
 * https://themes.gohugo.io/airspace-hugo/
 * https://themes.gohugo.io/theme/startbootstrap-clean-blog/
+* https://themes.gohugo.io/manis-hugo-theme/
+* https://themes.gohugo.io/theme/hugo_theme_pickles/
+* https://themes.gohugo.io/theme/steam/
+* https://themes.gohugo.io/theme/cactus/
 
 ## Website Goals
 
