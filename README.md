@@ -84,6 +84,12 @@ Note: if your personal website (now submodule) has changes not yet pulled, you w
 * https://themes.gohugo.io/theme/hugo_theme_pickles/
 * https://themes.gohugo.io/theme/steam/
 * https://themes.gohugo.io/theme/cactus/
+* https://themes.gohugo.io/newsprint/
+* https://themes.gohugo.io/hugo-now-ui/
+* https://themes.gohugo.io/hugo-theme-sam/
+* https://themes.gohugo.io/hugo-theme-hello-friend/
+* https://themes.gohugo.io/theme/hugograyscale/ this looks familiar...
+* CHOSEN: https://themes.gohugo.io/hermit/
 
 ## Website Goals
 
