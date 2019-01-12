@@ -355,6 +355,23 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "css/grayscale.css",
+			"settings":
+			{
+				"buffer_size": 5390,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 6013,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -543,6 +560,7 @@
 	],
 	"file_history":
 	[
+		"/C/Users/jcworkma/Documents/personal/website/website/find_a_book.html",
 		"/C/Users/jcworkma/Downloads/registry.bat",
 		"/C/Users/jcworkma/Syncplicity Folders/intel/gta/triages/18ww48_regressions/taskml_emu_media_bkc_seethong_debug_full-bkc.txt",
 		"/S/jcworkma/tests_gsim/gsimsrc/scripts/tests/test_run.py",
@@ -669,8 +687,7 @@
 		"/S/jcworkma/tests_gsim/gsimsrc/scripts/jacks_playground_tracelist.xml",
 		"/S/jcworkma/tests_gsim/gsimsrc/scripts/data/levels/apps/tracelist.txt",
 		"//samba.sc.intel.com/nfs/sc/disks/sc_vpg_00756/aub_import/create_tracelist/ww35_compute_cm.txt",
-		"/C/Users/jcworkma/vpg_graphics_architecture_tools-gsimsrc/scripts/setup.ini",
-		"/S/jcworkma/tests_gsim/gsimsrc/scripts/archtargets_lib/archdb_levels.py"
+		"/C/Users/jcworkma/vpg_graphics_architecture_tools-gsimsrc/scripts/setup.ini"
 	],
 	"find":
 	{
@@ -818,8 +835,76 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "css/grayscale.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5390,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2568,
+								2574
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1740.8,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6013,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3187,
+								3187
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1006.4,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -840,6 +925,12 @@
 				0,
 				1,
 				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
 			]
 		],
 		"cols":
@@ -850,6 +941,7 @@
 		"rows":
 		[
 			0.0,
+			0.5,
 			1.0
 		]
 	},
@@ -892,7 +984,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
