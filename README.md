@@ -8,8 +8,9 @@ Also available from [workmanjack.github.io](workmanjack.github.io)
 
 1. Purchase domain from [Google Domains](https://domains.google)
 2. Setup a [Github Pages](https://pages.github.com/) repo ([tutorial](http://www.curtismlarson.com/blog/2015/04/12/github-pages-google-domains/))
-3. Install [Jekyll on Windows](https://jekyllrb.com/docs/installation/windows/)
-4. Change your mind and use Hugo instead because apparently [it is way faster](https://forestry.io/blog/hugo-and-jekyll-compared/)
+3. Make sure you've set your A records correctly so that your custom domain and github pages site can be served over HTTPS (https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider).
+4. Install [Jekyll on Windows](https://jekyllrb.com/docs/installation/windows/)
+5. Change your mind and use Hugo instead because apparently [it is way faster](https://forestry.io/blog/hugo-and-jekyll-compared/)
 
 ### Additional resources that might be helpful for navigating the Pages & Jekyll ecosystem:
 
@@ -28,11 +29,17 @@ Also available from [workmanjack.github.io](workmanjack.github.io)
 1. To [install Hugo](https://gohugo.io/getting-started/installing), I used [Chocolatey](https://chocolatey.org/). Note that I had never used Chocolatey before, but it was a breeze.
 2. Follow [Hugo's quickstart guide](https://gohugo.io/getting-started/quick-start/). I had a local site up and running in minutes!
 3. Follow [Hugo's GitHub Pages guide](https://gohugo.io/hosting-and-deployment/hosting-on-github/).
+4. Find a Hugo theme and follow its installation directions
 
 Two notes on the Pages guide that confused me at first:
 
 * Their provided git submodule command uses ssh instead of https. My local git is not properly configured to work with ssh, so I needed to switch the command to https. So, instead of `git submodule add -b master git@github.com:<USERNAME>/<USERNAME>.github.io.git public`, I ran `git submodule add -b master https://github.com/<USERNAME>/<USERNAME>.github.io.git public`.
 * By default, hugo does not render the static site files to your disk when running `hugo serve`. To enable this, run `hugo serve --renderToDisk`.
+
+And another two notes on working with Hugo Themes:
+
+* You will probably need to copy the theme's example site's config.toml settings
+* If you're using a custom domain name, make sure your hugo's baseUrl is set to the github.io address and not the custom domain. If you set it as the custom domain, then your networked imports/includes/downloads won't work.
 
 ### Publishing Hugo to a Subdirectory of Your GitHub Pages Site
 
