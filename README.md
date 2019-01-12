@@ -42,6 +42,7 @@ To push hugo to a subdir, you need to do the following:
 
 1. Create a subdir in your personal website GitHub Pages repo. I called mine `blog`.
 2. When building your hugo site, don't just call hugo. Call `hugo --destination public\blog`. This puts all rendered files into your subdirectory.
+3. And the final step is to modify your config's base url. Open up your site's config.toml, and change `baseURL` to `"http://www.jackcworkman.com/blog"` (but replace with your actual site).
 
 Here is the script they provide in their guide adapted to push to a subdirectory (note that this example assumes you want to render files to public\blog):
 
@@ -76,8 +77,19 @@ Note: if your personal website (now submodule) has changes not yet pulled, you w
 
 ### Some Hugo themes that have caught my eye
 
+* https://themes.gohugo.io/theme/gohugo-theme-ananke/
 * https://themes.gohugo.io/airspace-hugo/
 * https://themes.gohugo.io/theme/startbootstrap-clean-blog/
+* https://themes.gohugo.io/manis-hugo-theme/
+* https://themes.gohugo.io/theme/hugo_theme_pickles/
+* https://themes.gohugo.io/theme/steam/
+* https://themes.gohugo.io/theme/cactus/
+* https://themes.gohugo.io/newsprint/
+* https://themes.gohugo.io/hugo-now-ui/
+* https://themes.gohugo.io/hugo-theme-sam/
+* https://themes.gohugo.io/hugo-theme-hello-friend/
+* https://themes.gohugo.io/theme/hugograyscale/ this looks familiar...
+* CHOSEN: https://themes.gohugo.io/hermit/
 
 ## Website Goals
 
