@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Posts on Jack&#39;s Blog</title>
+		<link>https://www.jackcworkman.com/blog/posts/</link>
+		<description>Recent content in Posts on Jack&#39;s Blog</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+		<lastBuildDate>Fri, 11 Jan 2019 22:49:50 -0800</lastBuildDate>
+		<atom:link href="https://www.jackcworkman.com/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Hello World</title>
+			<link>https://www.jackcworkman.com/blog/posts/hello-world/</link>
+			<pubDate>Fri, 11 Jan 2019 22:49:50 -0800</pubDate>
+			
+			<guid>https://www.jackcworkman.com/blog/posts/hello-world/</guid>
+			<description> Hello World! </description>
+			<content type="html"><![CDATA[
+
+<h1 id="hello-world">Hello World!</h1>
+]]></content>
+		</item>
+		
+	</channel>
+</rss>
