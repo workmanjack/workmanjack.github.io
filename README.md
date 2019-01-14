@@ -10,7 +10,7 @@ Also available from [workmanjack.github.io](workmanjack.github.io)
 2. Setup a [Github Pages](https://pages.github.com/) repo ([tutorial](http://www.curtismlarson.com/blog/2015/04/12/github-pages-google-domains/))
 3. Make sure you've set your A records correctly so that your custom domain and github pages site can be served over HTTPS (https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider).
 4. Install [Jekyll on Windows](https://jekyllrb.com/docs/installation/windows/)
-5. Change your mind and use Hugo instead because apparently [it is way faster](https://forestry.io/blog/hugo-and-jekyll-compared/)
+5. **Change your mind and use Hugo instead because apparently [it is way faster](https://forestry.io/blog/hugo-and-jekyll-compared/)**
 
 ### Additional resources that might be helpful for navigating the Pages & Jekyll ecosystem:
 
@@ -29,7 +29,8 @@ Also available from [workmanjack.github.io](workmanjack.github.io)
 1. To [install Hugo](https://gohugo.io/getting-started/installing), I used [Chocolatey](https://chocolatey.org/). Note that I had never used Chocolatey before, but it was a breeze.
 2. Follow [Hugo's quickstart guide](https://gohugo.io/getting-started/quick-start/). I had a local site up and running in minutes!
 3. Follow [Hugo's GitHub Pages guide](https://gohugo.io/hosting-and-deployment/hosting-on-github/).
-4. Find a Hugo theme and follow its installation directions
+4. Find a Hugo theme and follow its installation directions.
+5. Generate pages with `hugo new page-title.md` (depending on your theme, you might have specific subdirectories like "posts") and *make sure to set `draft: false` in page's metadata or else the page (and its section) will not be available*.
 
 Two notes on the Pages guide that confused me at first:
 
