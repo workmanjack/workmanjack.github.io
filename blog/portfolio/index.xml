@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolios on Jack&#39;s Blog</title>
+    <link>https://www.jackcworkman.com/blog/portfolio/</link>
+    <description>Recent content in Portfolios on Jack&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 13 Jan 2019 20:07:58 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.jackcworkman.com/blog/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lyric Mood Classification</title>
+      <link>https://www.jackcworkman.com/blog/portfolio/lyric-mood-classification/</link>
+      <pubDate>Sun, 13 Jan 2019 20:07:58 -0800</pubDate>
+      
+      <guid>https://www.jackcworkman.com/blog/portfolio/lyric-mood-classification/</guid>
+      <description>For this project, my team and I attempted to classify the &amp;ldquo;mood&amp;rdquo; of song lyrics with a Convolutional Neural Network. We achieved a classification accuracy of 77%. Other published research works with heavily engineered SVM models scored less than 70%.
+FYI - this page is a work-in-progress Motivation This project was completed as part of UC Berkeley&amp;rsquo;s Masters of Information and Data Science (MIDS) program in the course &amp;ldquo;W266 Natural Language Processing with Deep Learning&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

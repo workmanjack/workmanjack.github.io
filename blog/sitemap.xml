@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.jackcworkman.com/blog/portfolio/lyric-mood-classification/</loc>
+    <lastmod>2019-01-13T20:07:58-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jackcworkman.com/blog/about/</loc>
+    <lastmod>2019-01-13T19:44:00-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.jackcworkman.com/blog/posts/hello-world/</loc>
     <lastmod>2019-01-11T22:49:50-08:00</lastmod>
   </url>
@@ -19,7 +29,13 @@
   
   <url>
     <loc>https://www.jackcworkman.com/blog/</loc>
-    <lastmod>2019-01-11T22:49:50-08:00</lastmod>
+    <lastmod>2019-01-13T20:07:58-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jackcworkman.com/blog/portfolio/</loc>
+    <lastmod>2019-01-13T20:07:58-08:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#494f5c">
+	<meta name="msapplication-TileColor" content="#494f5c">
+<meta itemprop="name" content="Lyric Mood Classification">
+<meta itemprop="description" content="For this project, my team and I attempted to classify the &ldquo;mood&rdquo; of song lyrics with a Convolutional Neural Network. We achieved a classification accuracy of 77%. Other published research works with heavily engineered SVM models scored less than 70%.
+FYI - this page is a work-in-progress Motivation This project was completed as part of UC Berkeley&rsquo;s Masters of Information and Data Science (MIDS) program in the course &ldquo;W266 Natural Language Processing with Deep Learning&rdquo;.">
+
+
+<meta itemprop="datePublished" content="2019-01-13T20:07:58-08:00" />
+<meta itemprop="dateModified" content="2019-01-13T20:07:58-08:00" />
+<meta itemprop="wordCount" content="517">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta property="og:title" content="Lyric Mood Classification" />
+<meta property="og:description" content="For this project, my team and I attempted to classify the &ldquo;mood&rdquo; of song lyrics with a Convolutional Neural Network. We achieved a classification accuracy of 77%. Other published research works with heavily engineered SVM models scored less than 70%.
+FYI - this page is a work-in-progress Motivation This project was completed as part of UC Berkeley&rsquo;s Masters of Information and Data Science (MIDS) program in the course &ldquo;W266 Natural Language Processing with Deep Learning&rdquo;." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.jackcworkman.com/blog/portfolio/lyric-mood-classification/" /><meta property="article:published_time" content="2019-01-13T20:07:58-08:00"/>
+<meta property="article:modified_time" content="2019-01-13T20:07:58-08:00"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Lyric Mood Classification"/>
+<meta name="twitter:description" content="For this project, my team and I attempted to classify the &ldquo;mood&rdquo; of song lyrics with a Convolutional Neural Network. We achieved a classification accuracy of 77%. Other published research works with heavily engineered SVM models scored less than 70%.
+FYI - this page is a work-in-progress Motivation This project was completed as part of UC Berkeley&rsquo;s Masters of Information and Data Science (MIDS) program in the course &ldquo;W266 Natural Language Processing with Deep Learning&rdquo;."/>
+	<link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/blog/favicon-16x16.png">
+	<link rel="manifest" href="/blog/site.webmanifest">
+	<link rel="mask-icon" href="/blog/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="/blog/favicon.ico">
+
+	<title>Lyric Mood Classification</title>
+	<link rel="stylesheet" href="https://www.jackcworkman.com/blog/css/style.min.9a30741782203507f3d35fe9cefabad487c72fc82dfbdf59121759fc2fa52f92.css" integrity="sha256-mjB0F4IgNQfz01/pzvq61IfHL8gt+99ZEhdZ/C+lL5I=">
+	
+</head>
+
+<body id="page">
+	
+	<header id="site-header" class="animated slideInUp faster">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="https://www.jackcworkman.com/blog/">Jack&#39;s Blog</a>
+				</div>
+				<nav class="site-nav hide-in-mobile">
+					<a href="https://www.jackcworkman.com/blog/portfolio">Portfolio</a>
+					<a href="https://www.jackcworkman.com/blog/readings">Readings</a>
+					<a href="https://www.jackcworkman.com/blog/running">Running</a>
+					<a href="https://www.jackcworkman.com/blog/about/">About</a>
+				</nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<span class="hdr-social hide-in-mobile"><a href="mailto:jackcworkman@gmail.com" target="_blank" rel="noopener" title="Email"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></a><a href="https://www.linkedin.com/in/jackcworkman/" target="_blank" rel="noopener" title="Linkedin"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a><a href="https://github.com/workmanjack" target="_blank" rel="noopener" title="Github"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></span><button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="https://www.jackcworkman.com/blog/portfolio">Portfolio</a></li>
+			<li><a href="https://www.jackcworkman.com/blog/readings">Readings</a></li>
+			<li><a href="https://www.jackcworkman.com/blog/running">Running</a></li>
+			<li><a href="https://www.jackcworkman.com/blog/about/">About</a></li>
+		</ul>
+	</div>
+
+
+	<main class="site-main section-inner thin animated fadeIn faster">
+		<h1>Lyric Mood Classification</h1>
+		<div class="content">
+			
+
+<p>For this project, my team and I attempted to classify the &ldquo;mood&rdquo; of song lyrics with a Convolutional Neural Network. We achieved a classification accuracy of 77%. Other published research works with heavily engineered SVM models scored less than 70%.</p>
+
+<h2 id="fyi-this-page-is-a-work-in-progress">FYI - this page is a work-in-progress</h2>
+
+<h2 id="motivation">Motivation</h2>
+
+<p>This project was completed as part of UC Berkeley&rsquo;s <a href="https://datascience.berkeley.edu/" target="_blank">Masters of Information and Data Science (MIDS)</a> program in the course &ldquo;W266 Natural Language Processing with Deep Learning&rdquo;. It was done in the Fall semester of 2018.</p>
+
+<p>We were tasked with conceptualizing a language-related project with a novel deep learning application. Because of this language requirement and because my teammembers and I shared a mutual interest in music, we decided to focus on song lyrics. At first, we considered many topics like lyric generation and genre classification, but eventually settled on mood classificaiton after a thorough literature review.</p>
+
+<h2 id="literature-review">Literature Review</h2>
+
+<p>Some of the influential papers we read along the way include</p>
+
+<ul>
+<li>tbd</li>
+</ul>
+
+<h2 id="approach">Approach</h2>
+
+<p>This diagram represents, at a high-level, the key steps taken to reach our results:</p>
+
+<p><img src="/blog/lyric-mood-classification-flow.png" alt="Lyric Mood Classification Flow" /></p>
+
+<p>Steps:</p>
+
+<ol>
+<li>Attempt to download the song lyrics from genius.com for each track in the musiXmatch to Last.fm mapping file</li>
+<li>Index and label each song with its mood from the Last.fm dataset</li>
+<li>Import and preprocess all of the lyrics</li>
+<li>Generate word embeddings from the lyrics corpus</li>
+<li>Train and test the CNN model</li>
+</ol>
+
+<p>Steps 3-5 are referred to as the Mood Classification Pipeline. More on that below.</p>
+
+<h2 id="data">Data</h2>
+
+<p>For our dataset, we made use of the <a href="https://labrosa.ee.columbia.edu/millionsong/" target="_blank">Million Song Dataset (MSD)</a>.</p>
+
+<p>The MSD is a dataset put together by some kind folks at Columbia that includes both audio and text-based musical data for over one-million tracks. I cannot comment on the audio data as we did not use it, but I did read some interesting papers that built models using both the audio and the lyrics as input.</p>
+
+<p>It is made up of several companion datasets. The two we used were the
+* <a href="https://labrosa.ee.columbia.edu/millionsong/musixmatch" target="_blank">musiXmatch dataset</a>, the official lyrics collection of the Million Song Dataset.
+* <a href="https://labrosa.ee.columbia.edu/millionsong/lastfm" target="_blank">Last.fm dataset</a>, the official song tag and song similarity dataset of the Million Song Dataset.</p>
+
+<p>Of particular use was <a href="http://labrosa.ee.columbia.edu/millionsong/sites/default/files/AdditionalFiles/mxm_779k_matches.txt.zip" target="_blank">this giant text file mapping MSD IDs to musiXmatch IDs</a>.</p>
+
+<p>Unfortunately, we soon learned (after submititing our project proposal, of course) that the MSD&rsquo;s lyrics are only available in a bag-of-words format. Bad news for us! We needed the lyrics in sequential form. And thus began the first big challenge of the project: acquiring the lyrics.</p>
+
+<h2 id="downloading-the-lyrics">Downloading The Lyrics</h2>
+
+<p>After some hunting, we were able to locate a web API resource through which we could download lyrics: genius.com. Along the way, we learned that, although lyrics seem to be freely available on the internet, there are actually some strict copyrights governing how they can be used and distributed.</p>
+
+<p>We quickly put together a web scraper and began pulling down the lyrics. That&rsquo;s when we realized that at the rate of one song every 5 seconds, we were looking at 43 days of download time!</p>
+
+<p>Code is open-sourced and available at <a href="https://github.com/workmanjack/w266-group-project_lyric-mood-classification" target="_blank">https://github.com/workmanjack/w266-group-project_lyric-mood-classification</a></p>
+
+<p>Final delivery was an academic paper that can be viewed <a href="https://github.com/workmanjack/w266-group-project_lyric-mood-classification/blob/master/W266%20Final%20Project%20Report%20-%20Yuchen%2C%20Jack%2C%20Cyprian.pdf" target="_blank">here</a>.</p>
+
+		</div>
+	</main>
+
+	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+		<p>&copy; 2019 <a href="https://www.jackcworkman.com/blog/">Jack Workman</a> &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></p>
+		<p>
+			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Theme <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="https://www.jackcworkman.com/blog/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+		</p>
+	</footer>
+
+
+	<script src="https://www.jackcworkman.com/blog/js/main.min.8f39f24808e9d0a9b02da58c2d2838da859dc0b7bdfadbdb1883aae8b6adacfe.js" integrity="sha256-jznySAjp0KmwLaWMLSg42oWdwLe9+tvbGIOq6LatrP4="></script>
+
+</body>
+
+</html>

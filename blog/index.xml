@@ -7,13 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 13 Jan 2019 20:07:58 -0800</lastBuildDate>
     
 	<atom:link href="https://www.jackcworkman.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
-  </channel>
-</rss>="self" type="application/rss+xml" />
+    <item>
+      <title>Lyric Mood Classification</title>
+      <link>https://www.jackcworkman.com/blog/portfolio/lyric-mood-classification/</link>
+      <pubDate>Sun, 13 Jan 2019 20:07:58 -0800</pubDate>
+      
+      <guid>https://www.jackcworkman.com/blog/portfolio/lyric-mood-classification/</guid>
+      <description>For this project, my team and I attempted to classify the &amp;ldquo;mood&amp;rdquo; of song lyrics with a Convolutional Neural Network. We achieved a classification accuracy of 77%. Other published research works with heavily engineered SVM models scored less than 70%.
+FYI - this page is a work-in-progress Motivation This project was completed as part of UC Berkeley&amp;rsquo;s Masters of Information and Data Science (MIDS) program in the course &amp;ldquo;W266 Natural Language Processing with Deep Learning&amp;rdquo;.</description>
+    </item>
     
+    <item>
+      <title>About</title>
+      <link>https://www.jackcworkman.com/blog/about/</link>
+      <pubDate>Sun, 13 Jan 2019 19:44:00 -0800</pubDate>
+      
+      <guid>https://www.jackcworkman.com/blog/about/</guid>
+      <description>Hello! My name is Jack Workman and this is my blog.
+My posts center around 4 core topics:
+ Data Science Portfolio Books I&amp;rsquo;ve Read Music I Listen To My Running Adventures  For more about me, please visit my personal website at www.jackcworkman.com or reach out to me via any of the services listed in the bottom-right corner.
+Thank you for visiting and I hope you enjoy my blog!</description>
+    </item>
     
     <item>
       <title>Hello World</title>
@@ -21,7 +40,7 @@
       <pubDate>Fri, 11 Jan 2019 22:49:50 -0800</pubDate>
       
       <guid>https://www.jackcworkman.com/blog/posts/hello-world/</guid>
-      <description> Hello World! </description>
+      <description>Hello, world!</description>
     </item>
     
     <item>
@@ -30,7 +49,7 @@
       <pubDate>Fri, 11 Jan 2019 22:49:42 -0800</pubDate>
       
       <guid>https://www.jackcworkman.com/blog/hello-world/</guid>
-      <description> Hello World! </description>
+      <description></description>
     </item>
     
   </channel>
