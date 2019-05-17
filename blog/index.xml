@@ -52,5 +52,14 @@ Thank you for visiting and I hope you enjoy my blog!</description>
       <description></description>
     </item>
     
+    <item>
+      <title>Lifter Clustering and Lift Classification</title>
+      <link>https://www.jackcworkman.com/blog/portfolio/lifter-clustering-and-lift-classification/</link>
+      <pubDate>Wed, 15 Aug 2018 16:57:39 -0700</pubDate>
+      
+      <guid>https://www.jackcworkman.com/blog/portfolio/lifter-clustering-and-lift-classification/</guid>
+      <description>How can data science be applied to the weight room? Chances are, you or someone you know are a member of a gym or an athletic club and lift weights periodically. Numerous companies provide gym membership benefits to their employees or host weight rooms on their campuses. Weight lifting is pervasive: it is used by both casual and professional athletes as part of their training programmes. With all of these people lifting weights, there must be some rich, analyzeable data out there for data scientists to play with, right?</description>
+    </item>
+    
   </channel>
 </rss>
