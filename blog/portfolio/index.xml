@@ -7,15 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 13 Jan 2019 20:07:58 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 22 May 2019 17:32:29 -0700</lastBuildDate>
     
 	<atom:link href="https://www.jackcworkman.com/blog/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Novel 3d Object Generation</title>
+      <link>https://www.jackcworkman.com/blog/portfolio/novel-3d-object-generation/</link>
+      <pubDate>Wed, 22 May 2019 17:32:29 -0700</pubDate>
+      
+      <guid>https://www.jackcworkman.com/blog/portfolio/novel-3d-object-generation/</guid>
+      <description>Can Computers Make Art? Of course not, you might say. They are machines! Creativity is what makes us human. Art is the epitomy of creativity, and thus the epitomy of humanity. If machines can make art, then what are we?
+Enter the Portrait of Edmond Belamy sold for $432,500 at Christie&amp;rsquo;s art auction in October 2018. On the surface, this portrait looks like just another painting. It vaguely resembles a portrait of a man but has some quirky characteristics that one might attribute to the author&amp;rsquo;s peculiar vision - the unfinished edges, the blurry face, the studded texture.</description>
+    </item>
+    
+    <item>
       <title>Lyric Mood Classification</title>
       <link>https://www.jackcworkman.com/blog/portfolio/lyric-mood-classification/</link>
-      <pubDate>Sun, 13 Jan 2019 20:07:58 -0800</pubDate>
+      <pubDate>Sat, 22 Dec 2018 20:07:58 -0800</pubDate>
       
       <guid>https://www.jackcworkman.com/blog/portfolio/lyric-mood-classification/</guid>
       <description>For this project, my team and I attempted to classify the &amp;ldquo;mood&amp;rdquo; of song lyrics with a Convolutional Neural Network. We achieved a classification accuracy of 77%. Other published research works with heavily engineered SVM models scored less than 70%.
