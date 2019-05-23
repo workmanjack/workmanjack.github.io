@@ -83,6 +83,14 @@ cd ..
 
 Note: if your personal website (now submodule) has changes not yet pulled, you will need to pull them manually. The above bash script might fail silently otherwise (it did for me executing in Windows). To pull them manually, `cd public && git pull`.
 
+To summarize, using the above script, your hugo workflow should look like:
+
+1. `hugo new <page>`
+2. `hugo server` to launch the hugo test server so that you can review your changes at http://localhost:1313
+3. Write content in <page>
+4. `cd public && git pull` - if you don't do this step, deploy.sh might fail and you'll need to revert the commit to public
+5. `deploy.sh`
+
 ### Some Hugo themes that have caught my eye
 
 * https://themes.gohugo.io/theme/gohugo-theme-ananke/
