@@ -104,6 +104,9 @@ To summarize, using the above script, your hugo workflow should look like:
 * https://themes.gohugo.io/hugo-now-ui/
 * https://themes.gohugo.io/hugo-theme-sam/
 * https://themes.gohugo.io/hugo-theme-hello-friend/
+* https://themes.gohugo.io/hugo-theme-hello-friend-ng/
+* https://themes.gohugo.io/theme/hugo-coder/
+* https://themes.gohugo.io//theme/hugo-theme-m10c/
 * https://themes.gohugo.io/theme/hugograyscale/ this looks familiar...
 * CHOSEN: https://themes.gohugo.io/hermit/
 
