@@ -91,6 +91,8 @@ To summarize, using the above script, your hugo workflow should look like:
 4. `cd public && git pull` - if you don't do this step, deploy.sh might fail and you'll need to revert the commit to public
 5. `deploy.sh`
 
+If you need to update hugo (for example, you switched to a new theme that required a newer version of hugo) and if you installed with choco, simply run `choco upgrade hugo -confirm`.
+
 ### Some Hugo themes that have caught my eye
 
 * https://themes.gohugo.io/theme/gohugo-theme-ananke/
@@ -109,6 +111,10 @@ To summarize, using the above script, your hugo workflow should look like:
 * https://themes.gohugo.io//theme/hugo-theme-m10c/
 * https://themes.gohugo.io/theme/hugograyscale/ this looks familiar...
 * CHOSEN: https://themes.gohugo.io/hermit/
+
+### Tips on Working With Hugo
+
+1. Take advantage of [hugo shortcodes](https://gohugo.io/content-management/shortcodes/) especially for linking images and adding captions or github gists
 
 ## Website Goals
 
