@@ -1,0 +1,2 @@
+enqueue_no,kernel,workdim,gws,lws,oclver,queued_ns,submit_ns,start_ns,end_ns,complete_ns,duration_ns
+1,convolution_gpu_mmad_slm_2x14_rep4_22,3,1024x4x28,32x1x4,2,441457978559,441465963211,441458135017,441458548142,441458548142,413125
